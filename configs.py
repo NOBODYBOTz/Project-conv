@@ -8,27 +8,27 @@ class Config(object):
 
     BOT_TOKEN = str(os.environ.get("BOT_TOKEN", ""))
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1428968542))
+    OWNER_ID = int(os.environ.get("OWNER_ID", 1715861188))
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1715861188").split())
 
-    START = str(os.environ.get("START_TEXT", ""))
+    START = str(os.environ.get("START_TEXT", "hello this is welcome massage for testing.."))
 
-    HELP = str(os.environ.get("HELP_TEXT", ""))
+    HELP = str(os.environ.get("HELP_TEXT", "it's testing time so no help.!"))
 
     DONATE = str(os.environ.get("DONATE_TEXT", ""))
 
     DONATE_LINK = str(os.environ.get("DONATE_LINK", ""))
 
-    UPDATE_CHANNEL = str(os.environ.get("UPDATE_CHANNEL", "https://t.me/HeimanSupports"))
+    UPDATE_CHANNEL = str(os.environ.get("UPDATE_CHANNEL", "https://t.me/NOBODYBOTz"))
 
-    SUPPORT_GROUP = str(os.environ.get("SUPPORT_GROUP", "https://t.me/HeimanSupport"))
+    SUPPORT_GROUP = str(os.environ.get("SUPPORT_GROUP", "https://t.me/NOBODYBOTz"))
 
     DB_URL = str(os.environ.get("DB_URL", ""))
     
     DB_NAME = str(os.environ.get("DB_NAME", "feedback_bot"))
     
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001955617973"))
 
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 
