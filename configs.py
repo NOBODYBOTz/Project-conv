@@ -24,7 +24,7 @@ class Config(object):
 
     SUPPORT_GROUP = str(os.environ.get("SUPPORT_GROUP", "https://t.me/NOBODYBOTz"))
 
-    DB_URL = str(os.environ.get("DB_URL", ""))
+    DB_URL = str(os.environ.get("DB_URL", "mongodb+srv://avinashkakde646:avinashkakde646@cluster0.jlubkn6.mongodb.net/?retryWrites=true&w=majority"))
     
     DB_NAME = str(os.environ.get("DB_NAME", "feedback_bot"))
     
